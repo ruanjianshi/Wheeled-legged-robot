@@ -1,0 +1,91 @@
+T0E30 000:340.631   SEGGER J-Link V8.12a Log File
+T0E30 000:341.397   DLL Compiled: Jan  9 2025 14:34:24
+T0E30 000:341.435   Logging started @ 2025-03-14 07:16
+T0E30 000:341.469   Process: D:\Keil_v5\UV4\UV4.exe
+T0E30 000:341.875 - 341.503ms 
+T0E30 000:342.311 JLINK_SetWarnOutHandler(...)
+T0E30 000:342.396 - 0.273ms 
+T0E30 000:342.453 JLINK_OpenEx(...)
+T0E30 000:348.053   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T0E30 000:348.848   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T0E30 000:350.362   Hardware: V7.00
+T0E30 000:350.487   S/N: 20090929
+T0E30 000:350.539   OEM: SEGGER
+T0E30 000:350.590   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull
+T0E30 000:351.025   Bootloader: (FW returned invalid version)
+T0E30 000:351.956   TELNET listener socket opened on port 19021
+T0E30 000:352.093   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T0E30 000:352.334   WEBSRV Webserver running on local port 19080
+T0E30 000:352.536   Looking for J-Link GUI Server exe at: D:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T0E30 000:352.578   Looking for J-Link GUI Server exe at: D:\J-link\JLink_V812a\JLinkGUIServer.exe
+T0E30 000:352.602   Forking J-Link GUI Server: D:\J-link\JLink_V812a\JLinkGUIServer.exe
+T0E30 000:358.680   J-Link GUI Server info: "J-Link GUI server V8.12a "
+T0E30 000:359.511 - 16.836ms returns "O.K."
+T0E30 000:359.578 JLINK_GetEmuCaps()
+T0E30 000:359.746 - 0.016ms returns 0x88EA5833
+T0E30 000:359.837 JLINK_TIF_GetAvailable(...)
+T0E30 000:359.998 - 0.161ms 
+T0E30 000:360.026 JLINK_SetErrorOutHandler(...)
+T0E30 000:360.041 - 0.015ms 
+T0E30 000:360.236 JLINK_ExecCommand("ProjectFile = "E:\stm32代码集\ROS小车\Project\JLinkSettings.ini"", ...). 
+T0E30 000:390.863   Ref file found at: D:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T0E30 000:391.115   REF file references invalid XML file: D:\J-link\JLink_V812a\JLinkDevices.xml
+T0E30 000:409.803 - 49.566ms returns 0x00
+T0E30 000:411.766 JLINK_ExecCommand("Device = STM32F103C8", ...). 
+T0E30 000:415.474   Device "STM32F103C8" selected.
+T0E30 000:416.150 - 4.328ms returns 0x00
+T0E30 000:416.185 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T0E30 000:416.382   ERROR: Unknown command
+T0E30 000:416.408 - 0.206ms returns 0x01
+T0E30 000:416.432 JLINK_GetHardwareVersion()
+T0E30 000:416.452 - 0.015ms returns 70000
+T0E30 000:416.468 JLINK_GetDLLVersion()
+T0E30 000:416.483 - 0.014ms returns 81201
+T0E30 000:416.499 JLINK_GetOEMString(...)
+T0E30 000:416.515 JLINK_GetFirmwareString(...)
+T0E30 000:416.530 - 0.014ms 
+T0E30 000:441.563 JLINK_GetDLLVersion()
+T0E30 000:441.618 - 0.055ms returns 81201
+T0E30 000:441.642 JLINK_GetCompileDateTime()
+T0E30 000:441.656 - 0.014ms 
+T0E30 000:447.127 JLINK_GetFirmwareString(...)
+T0E30 000:447.179 - 0.052ms 
+T0E30 000:451.374 JLINK_GetHardwareVersion()
+T0E30 000:451.428 - 0.053ms returns 70000
+T0E30 000:462.310 JLINK_GetSN()
+T0E30 000:462.363 - 0.053ms returns 20090929
+T0E30 000:466.734 JLINK_GetOEMString(...)
+T0E30 000:482.465 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T0E30 000:484.165 - 1.698ms returns 0x00
+T0E30 000:484.211 JLINK_HasError()
+T0E30 000:484.241 JLINK_SetSpeed(5000)
+T0E30 000:484.326 - 0.087ms 
+T0E30 000:484.349 JLINK_GetIdData(pIdData)
+T0E30 000:489.037   InitTarget() start
+T0E30 000:489.098    J-Link Script File: Executing InitTarget()
+T0E30 000:495.907   JTAG selected. Identifying JTAG Chain...
+T0E30 000:502.225   Could not measure total IR len. TDO is constant high.
+T0E30 000:507.190   Error: Scanning JTAG chain failed.
+T0E30 000:510.749   Can not attach to CPU. Trying connect under reset.
+T0E30 000:565.611   JTAG selected. Identifying JTAG Chain...
+T0E30 000:571.337   Could not measure total IR len. TDO is constant high.
+T0E30 000:575.253   Error: Scanning JTAG chain failed.
+T0E30 000:578.904   Connecting to CPU via connect under reset failed.
+T0E30 000:633.288   InitTarget() end - Took 140ms
+T0E30 000:636.470   Connect failed. Resetting via Reset pin and trying again.
+T0E30 000:702.484   InitTarget() start
+T0E30 000:702.548    J-Link Script File: Executing InitTarget()
+T0E30 000:706.266   JTAG selected. Identifying JTAG Chain...
+T0E30 000:712.510   Could not measure total IR len. TDO is constant high.
+T0E30 000:719.762   Error: Scanning JTAG chain failed.
+T0E30 000:723.060   Can not attach to CPU. Trying connect under reset.
+T0E30 000:777.916   JTAG selected. Identifying JTAG Chain...
+T0E30 000:783.239   Could not measure total IR len. TDO is constant high.
+T0E30 000:787.098   Error: Scanning JTAG chain failed.
+T0E30 000:790.399   Connecting to CPU via connect under reset failed.
+T0E30 000:844.840   InitTarget() end - Took 138ms
+T0E30 000:844.903 - 360.554ms 
+T0E30 002:915.233 JLINK_Close()
+T0E30 002:926.810 - 11.575ms
+T0E30 002:926.895   
+T0E30 002:926.927   Closed

@@ -1,0 +1,45 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(71): warning:  #29-D: expected an expression
+  #elif
+..\User\main.c: 1 warning, 0 errors
+compiling FreeRTOSHandle.c...
+..\User\FreeRTOSHandle.c(671): warning:  #550-D: variable "reveice"  was set but never used
+      uint32_t reveice = 0;
+..\User\FreeRTOSHandle.c(92): warning:  #177-D: variable "IdleTaskStack"  was declared but never referenced
+  static StackType_t IdleTaskStack[configMINIMAL_STACK_SIZE];      /* 空闲任务任务堆栈 */
+..\User\FreeRTOSHandle.c(93): warning:  #177-D: variable "IdleTaskTCB"  was declared but never referenced
+  static StaticTask_t IdleTaskTCB;                                 /* 空闲任务控制块 */
+..\User\FreeRTOSHandle.c(94): warning:  #177-D: variable "TimerTaskStack"  was declared but never referenced
+  static StackType_t TimerTaskStack[configTIMER_TASK_STACK_DEPTH]; /* 定时器服务任务堆栈 */
+..\User\FreeRTOSHandle.c(95): warning:  #177-D: variable "TimerTaskTCB"  was declared but never referenced
+  static StaticTask_t TimerTaskTCB;                                /* 定时器服务任务控制块 */
+..\User\FreeRTOSHandle.c: 5 warnings, 0 errors
+linking...
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching malloc.o(.bss).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching heap_4.o(.bss).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching freertoshandle.o(.bss).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching startup_stm32f10x_md.o(STACK).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching tasks.o(.bss).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching freertoshandle.o(.data).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching iic.o(.data).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching tasks.o(.data).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching queue.o(.bss).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching timers.o(.bss).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching heap_4.o(.data).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching malloc.o(.data).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching port.o(.data).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f10x.o(.data).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching timers.o(.data).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.data).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching freertos_timer.o(.data).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching stdout.o(.data).
+.\Objects\XQ-F103C8T6.axf: Error: L6406E: No space in execution regions with .ANY selector matching delay.o(.data).
+.\Objects\XQ-F103C8T6.axf: Error: L6407E: Sections of aggregate size 0xef78 bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 20 error messages.
+".\Objects\XQ-F103C8T6.axf" - 20 Error(s), 6 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:03

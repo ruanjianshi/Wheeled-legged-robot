@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "foc.h": "c",
+        "pwm.h": "c",
+        "iic.h": "c",
+        "mpu6050.h": "c",
+        "systick.h": "c",
+        "type_traits": "c",
+        "as5600.h": "c",
+        "stm32f10x.h": "c",
+        "servo.h": "c",
+        "delay.h": "c",
+        "freertoshandle.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
